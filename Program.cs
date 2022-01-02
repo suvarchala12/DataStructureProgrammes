@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace DataStructures
 {
@@ -7,8 +8,8 @@ namespace DataStructures
         static void Main(string[] args)
         {
             Console.WriteLine("Data Structure!");
-            DataStructure dataStructure = new DataStructure();
-            dataStructure.Anagrams();
+            DataStructure<string> dataStructure = new DataStructure<string>();
+            dataStructure.Prime();
         }
     }
 }
